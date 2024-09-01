@@ -1,0 +1,6 @@
+需要有的部分：
+1.User类：包含用户名/密码/邮箱/公司等个人信息
+2.Festival类：包含节日地区/描述/固定日期等属性，以及写入该节日的用户信息
+3.Date类：包含年月日信息以及节日信息
+4.Calendar类：含有Date类型对象
+支持Register, Login, SetPwd, ModProfile, ShowCalendar等功能
