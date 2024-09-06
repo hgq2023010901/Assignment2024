@@ -1,0 +1,7 @@
+{
+    packages = {
+        [[C:\Users\Jayson\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\826582eb66794908a16a49dbdd33bec4]],
+        [[C:\Users\Jayson\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc]],
+        [[C:\Users\Jayson\AppData\Local\.xmake\packages\l\libcurl\8.7.1\630bef4302d846ea8e36eb2f83665ed3]]
+    }
+}

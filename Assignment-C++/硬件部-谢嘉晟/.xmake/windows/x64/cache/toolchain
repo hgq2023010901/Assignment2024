@@ -1,0 +1,79 @@
+{
+    msvc_arch_x64_plat_windows = {
+        vs_sdkver = [[\]],
+        vcarchs = {
+            "arm",
+            "arm64",
+            "arm64ec",
+            "x64",
+            "x86"
+        },
+        arch = "x64",
+        vs_toolset = "14.29.30133",
+        vcvars = {
+            DevEnvdir = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\]],
+            VCIDEInstallDir = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\VC\]],
+            VS160COMNTOOLS = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\]],
+            VSCMD_ARG_app_plat = "Desktop",
+            INCLUDE = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include]],
+            VSCMD_ARG_HOST_ARCH = "x64",
+            VCToolsRedistDir = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Redist\MSVC\14.29.30133\]],
+            VCInstallDir = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\]],
+            WindowsLibPath = [[References\CommonConfiguration\Neutral]],
+            WindowsSDKVersion = [[\]],
+            LIBPATH = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib\x86\store\references;C:\Windows\Microsoft.NET\Framework64\v4.0.30319]],
+            PATH = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Jayson\apps\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\xmake;C:\Users\Jayson\AppData\Local\Microsoft\WindowsApps;C:\Users\Jayson\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\Jayson\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\xmake]],
+            VCToolsVersion = "14.29.30133",
+            VCToolsInstallDir = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\]],
+            UniversalCRTSdkDir = [[C:\Program Files (x86)\Windows Kits\10\]],
+            VisualStudioVersion = "16.0",
+            VSInstallDir = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\]],
+            VSCMD_ARG_TGT_ARCH = "x64",
+            VSCMD_VER = "16.11.38",
+            LIB = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib\x64]]
+        },
+        plat = "windows",
+        __global = true,
+        vs = "2019"
+    },
+    tool_platform_windows_x64_ld = {
+        toolchain_info = {
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows",
+            arch = "x64"
+        },
+        toolname = "link",
+        program = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe]]
+    },
+    tool_platform_windows_x64_cc = {
+        toolchain_info = {
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows",
+            arch = "x64"
+        },
+        toolname = "cl",
+        program = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]]
+    },
+    tool_target_my_project_windows_x64_ld = {
+        toolchain_info = {
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows",
+            arch = "x64"
+        },
+        toolname = "link",
+        program = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe]]
+    },
+    tool_platform_windows_x64_cxx = {
+        toolchain_info = {
+            plat = "windows",
+            name = "msvc",
+            cachekey = "msvc_arch_x64_plat_windows",
+            arch = "x64"
+        },
+        toolname = "cl",
+        program = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]]
+    }
+}
