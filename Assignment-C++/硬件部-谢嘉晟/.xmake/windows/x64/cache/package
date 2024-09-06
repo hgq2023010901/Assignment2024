@@ -1,0 +1,10 @@
+{
+    nlohmann_json = {
+        __enabled = false,
+        __requirestr = "nlohmann_json"
+    },
+    libcurl = {
+        __enabled = false,
+        __requirestr = "libcurl"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    find_program = {
+        zig = false,
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]],
+        unzip = false,
+        ["pkg-config"] = "pkg-config",
+        git = "git",
+        curl = [[C:\Program Files\xmake\winenv\bin\curl]],
+        nim = false,
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]],
+        gzip = false,
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        ping = "ping"
+    },
+    find_program_fetch_package_system = {
+        cmake = false
+    },
+    find_program_fetch_package_xmake = {
+        cmake = false
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]]
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe_19.29.30154_cc_cxflags_-nologo_cl_external_includedir"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe_19.29.30154_cc_cxflags_-nologo_-MT"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe_19.29.30154_cxx_cxflags_-nologo_cl_external_includedir"] = true
+    },
+    find_programver = {
+        ["C:\\Program Files\\xmake\\winenv\\bin\\curl"] = "8.2.1",
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe"] = "19.29.30154"
+    },
+    ["detect.sdks.find_vcpkgdir"] = false,
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe]]
+    },
+    find_package_windows_x64_fetch_package_system = {
+        libcurl_630bef4302d846ea8e36eb2f83665ed3_release_external = false,
+        nlohmann_json_826582eb66794908a16a49dbdd33bec4_release_external = false
+    },
+    ["cldeps.parse_include.note"] = "注意: 包含文件: ",
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::nlohmann_json_826582eb66794908a16a49dbdd33bec4_release_v3.11.3_external"] = {
+            license = "MIT",
+            sysincludedirs = {
+                [[C:\Users\Jayson\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\826582eb66794908a16a49dbdd33bec4\include]]
+            },
+            version = "v3.11.3"
+        },
+        ["xmake::libcurl_630bef4302d846ea8e36eb2f83665ed3_release_8.7.1_external"] = {
+            links = {
+                "libcurl"
+            },
+            libfiles = {
+                [[C:\Users\Jayson\AppData\Local\.xmake\packages\l\libcurl\8.7.1\630bef4302d846ea8e36eb2f83665ed3\lib\libcurl.lib]]
+            },
+            syslinks = {
+                "advapi32",
+                "crypt32",
+                "wldap32",
+                "winmm",
+                "ws2_32",
+                "user32"
+            },
+            license = "MIT",
+            linkdirs = {
+                [[C:\Users\Jayson\AppData\Local\.xmake\packages\l\libcurl\8.7.1\630bef4302d846ea8e36eb2f83665ed3\lib]]
+            },
+            defines = "CURL_STATICLIB",
+            version = "8.7.1",
+            sysincludedirs = {
+                [[C:\Users\Jayson\AppData\Local\.xmake\packages\l\libcurl\8.7.1\630bef4302d846ea8e36eb2f83665ed3\include]]
+            },
+            static = true
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]]
+    }
+}

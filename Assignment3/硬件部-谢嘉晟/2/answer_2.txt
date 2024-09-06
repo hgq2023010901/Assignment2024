@@ -1,0 +1,2 @@
+Django is more feature-rich and follows a "convention over configuration" approach.
+Flask is more minimalist and allows for greater flexibility and customization.
