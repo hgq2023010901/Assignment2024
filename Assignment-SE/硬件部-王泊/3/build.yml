@@ -1,0 +1,35 @@
+name: build
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build.yml'
+      - 'src/**' # 监听src目录下的所有文件变化
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up C++ environment
+        uses: actions/setup-cpp@v1
+        with:
+          cpp-version: '20' # 指定C++版本
+          
+
+      - name: Build and test
+        run: |
+          mkdir build && cd build
+          cmake ..
+          make
+          ctest 
+          ./my_executable 
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        if: success() # 仅当构建成功时才上传
+        with:
+          name: my_executable
+          path: build/my_executable
