@@ -1,0 +1,26 @@
+h1{
+    color:black;
+    text-align:center;
+}
+
+h2{
+    color:black;
+    text-align:right;
+}
+
+/* Flexbox 布局 */
+.card-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-text {
+    flex: 1;
+    margin-right: 20px; /* 可根据需要调整间距 */
+}
+
+.card-image {
+    max-width: 500px; /* 可根据需要调整图片大小 */
+    height: auto;
+}
