@@ -1,0 +1,42 @@
+{
+    libcurl = {
+        static = true,
+        links = "libcurl",
+        version = "8.7.1",
+        __enabled = true,
+        syslinks = {
+            "advapi32",
+            "crypt32",
+            "wldap32",
+            "winmm",
+            "ws2_32",
+            "user32"
+        },
+        license = "MIT",
+        libfiles = [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib\libcurl.lib]],
+        defines = "CURL_STATICLIB",
+        __requirestr = "libcurl",
+        installdir = [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6]],
+        envs = {
+            PATH = {
+                [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\bin]],
+                [[C:\Users\Lenovo\AppData\Local\.xmake\packages\c\cmake\3.29.2\ae2ca291915949809139117c15e1db8a\bin]]
+            }
+        },
+        linkdirs = [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib]],
+        sysincludedirs = [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\include]]
+    },
+    nlohmann_json = {
+        envs = {
+            PATH = {
+                [[C:\Users\Lenovo\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab\bin]]
+            }
+        },
+        license = "MIT",
+        __requirestr = "nlohmann_json",
+        installdir = [[C:\Users\Lenovo\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab]],
+        version = "v3.11.3",
+        __enabled = true,
+        sysincludedirs = [[C:\Users\Lenovo\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab\include]]
+    }
+}
