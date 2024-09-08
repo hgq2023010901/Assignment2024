@@ -1,0 +1,23 @@
+{
+    cmdlines = {
+        [[xmake l c:\Users\Lenovo\.vscode\extensions\tboox.xmake-vscode-2.3.7\assets\explorer.lua]],
+        [[xmake l c:\Users\Lenovo\.vscode\extensions\tboox.xmake-vscode-2.3.7\assets\explorer.lua]],
+        "xmake check",
+        [[xmake l c:\Users\Lenovo\.vscode\extensions\tboox.xmake-vscode-2.3.7\assets\update_intellisense.lua .vscode clangd]],
+        [[xmake l c:\Users\Lenovo\.vscode\extensions\tboox.xmake-vscode-2.3.7\assets\explorer.lua]],
+        "xmake check",
+        "xmake ",
+        "xmake f",
+        "xmake run",
+        "xmake f",
+        "xmake f",
+        "xmake ",
+        "xmake run",
+        "xmake check",
+        "xmake run -d",
+        "xmake run -F",
+        "xmake ",
+        "xmake run -F",
+        "xmake update"
+    }
+}

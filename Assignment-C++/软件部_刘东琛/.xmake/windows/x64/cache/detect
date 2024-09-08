@@ -1,0 +1,85 @@
+{
+    find_program_fetch_package_system = {
+        cmake = [[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    find_programver_fetch_package_system = {
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.28.0-msvc1"
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe__cc_cxflags_-nologo_cl_external_includedir"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe__cc_cxflags_-nologo_-MT"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_external_includedir"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_sourceDependencies"] = true
+    },
+    find_program = {
+        curl = [[C:\Program Files\xmake\winenv\bin\curl]],
+        unzip = "unzip",
+        git = "git",
+        pkgconf = false,
+        tar = "tar",
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        nim = false,
+        ping = "ping",
+        vsjitdebugger = [[C:\Windows\system32\vsjitdebugger.exe]],
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\cl.exe]],
+        zig = false,
+        ["pkg-config"] = false,
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\cl.exe]],
+        gzip = "gzip"
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\link.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\cl.exe]]
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::nlohmann_json_af9f1bc1320f4be3a31ec1e2ed3a87ab_release_v3.11.3_external"] = {
+            version = "v3.11.3",
+            sysincludedirs = {
+                [[C:\Users\Lenovo\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab\include]]
+            },
+            license = "MIT"
+        },
+        ["xmake::libcurl_5cd5aeb180e6462c970c81ac7924f2c6_release_8.7.1_external"] = {
+            version = "8.7.1",
+            defines = "CURL_STATICLIB",
+            syslinks = {
+                "advapi32",
+                "crypt32",
+                "wldap32",
+                "winmm",
+                "ws2_32",
+                "user32"
+            },
+            linkdirs = {
+                [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib]]
+            },
+            links = {
+                "libcurl"
+            },
+            license = "MIT",
+            static = true,
+            libfiles = {
+                [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\lib\libcurl.lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6\include]]
+            }
+        }
+    },
+    find_program_fetch_package_xmake = {
+        cmake = false
+    },
+    ["detect.sdks.find_vcpkgdir"] = false,
+    find_programver = {
+        ["C:\\Program Files\\xmake\\winenv\\bin\\curl"] = "8.2.1",
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    find_package_windows_x64_fetch_package_system = {
+        libcurl_5cd5aeb180e6462c970c81ac7924f2c6_release_external = false
+    }
+}

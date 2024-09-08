@@ -1,0 +1,6 @@
+{
+    packages = {
+        [[C:\Users\Lenovo\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.3\af9f1bc1320f4be3a31ec1e2ed3a87ab]],
+        [[C:\Users\Lenovo\AppData\Local\.xmake\packages\l\libcurl\8.7.1\5cd5aeb180e6462c970c81ac7924f2c6]]
+    }
+}
