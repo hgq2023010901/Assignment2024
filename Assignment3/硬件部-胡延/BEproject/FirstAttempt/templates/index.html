@@ -1,0 +1,10 @@
+
+{% if Festival_list %}
+    <ul>
+    {% for festival in Festival_list %}
+        <li><a href="{% url 'FESTIVAL:detail'.id %}">{{ festival.description }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No festivals are available.</p>
+{% endif %}
